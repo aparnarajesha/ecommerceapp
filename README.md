@@ -15,6 +15,10 @@ A fully responsive E-commerce application built using Flutter, integrated with F
 📂 Folder Structure
 A well-structured Flutter project, ensuring scalability and maintainability.
 
+📂 Folder Structure
+A well-structured Flutter project, ensuring scalability and maintainability.
+
+
 ecommerce_app/
 │-- android/                        # Android-specific files
 │-- build/                          # Auto-generated build files
@@ -75,30 +79,22 @@ Install Dart
 Install Android Studio / VS Code (for development)
 Set up an emulator or connect a physical device
 Clone the repository:
-sh
-Copy
-Edit
+
 git clone https://github.com/your-username/ecommerce-app.git
 cd ecommerce-app
 📌 Install Dependencies
 Run the following command to install necessary packages:
 
-sh
-Copy
-Edit
+
 flutter pub get
 📌 Run the App
 To launch the application, run:
 
-sh
-Copy
-Edit
+
 flutter run
 For a specific platform:
 
-sh
-Copy
-Edit
+
 flutter run -d chrome   # Run on Web
 flutter run -d android  # Run on Android
 flutter run -d ios      # Run on iOS (Mac required)
@@ -114,9 +110,7 @@ eve.holt@reqres.in	pistol
 For a custom backend, ensure it supports name, phone, email, and password fields.
 
 Example Login API Call
-dart
-Copy
-Edit
+
 Future<void> login(String email, String password) async {
   final response = await http.post(
     Uri.parse('https://reqres.in/api/login'),
@@ -133,9 +127,7 @@ Future<void> login(String email, String password) async {
   }
 }
 Example Product Fetch API Call
-dart
-Copy
-Edit
+
 Future<List<Product>> fetchProducts() async {
   final response = await http.get(Uri.parse('https://fakestoreapi.com/products'));
   if (response.statusCode == 200) {
