@@ -18,7 +18,10 @@ A fully functional E-commerce application built using Flutter, featuring user au
 ---
 #Demo:
 
-[![Watch the video](https://youtu.be/DPsdoq8Hz5s?si=S_jA4skaqBMZb6BV)]https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+https://youtu.be/DPsdoq8Hz5s?si=UBYQ2cSq6dkab211
+
+
+
 
 ## 📂 Folder Structure
 
